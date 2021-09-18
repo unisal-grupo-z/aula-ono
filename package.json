@@ -1,0 +1,26 @@
+{
+  "name": "aula-ono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/styles/global.scss:src/css/global.min.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unisal-grupo-z/aula-ono.git"
+  },
+  "keywords": [],
+  "author": "Guilherme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unisal-grupo-z/aula-ono/issues"
+  },
+  "homepage": "https://github.com/unisal-grupo-z/aula-ono#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  },
+  "devDependencies": {
+    "sass": "^1.41.1"
+  }
+}
