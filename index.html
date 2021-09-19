@@ -9,20 +9,28 @@
 
     <!-- boostrap --> 
     <link rel="stylesheet" href="/src/css/global.min.css">
+    <link rel="shortcut icon" type="image/png" href="/src/images/logo-32x32.png"/>
 
-    <title>Hello, world!</title>
+    <title>Assistente Virtual ZA.IA</title>
 
   </head>
 
   <!-- body --> 
-  <body>
+  <body class="">
     <header>
       <nav class="navbar navbar-dark bg-primary-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+
+        <a class="navbar-brand mb-3 mb-md-0" href="#">
           <img src="/src/images/logo.svg" alt="logo" height="120px" width="120px" class="d-inline-block align-text-center">
-          <span class="title-header">Assistente Zaia</span>
+          <span class="title-header">Assistente ZA.IA</span>
         </a>
+
+        <div class="form-check form-switch d-block mx-auto me-md-5">
+          <input class="form-check-input theme-radio" type="checkbox" id="flexSwitchCheckDefault" onclick="changeTheme()">
+          <label class="form-check-label text-light" for="flexSwitchCheckDefault">Trocar para tema escuro<label>
+        </div>
+
       </div>
     </nav>
   </header>
@@ -36,7 +44,7 @@
             </div>
             <div class="col-md-6 d-flex align-items-center">
               <div>
-                <h1>Titulo 1</h1>
+                <h1 class="mt-4 mt-md-0">Titulo 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque perspiciatis minus, nihil perferendis illo recusandae eum rem ut consequatur voluptas aliquam, modi voluptatem. Temporibus libero iste quisquam mollitia qui doloribus.</p>
               </div>
             </div>
@@ -52,26 +60,49 @@
             </div>
             <div class="col-md-6 d-flex align-items-center order-md-0">
               <div>
-                <h1>Titulo 2</h1>
+                <h1 class="mt-4 mt-md-0">Titulo 2</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque perspiciatis minus, nihil perferendis illo recusandae eum rem ut consequatur voluptas aliquam, modi voluptatem. Temporibus libero iste quisquam mollitia qui doloribus.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex align-items-center text-center">
+              <div>
+                <h1>Titulo 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque perspiciatis minus, nihil perferendis illo recusandae eum rem ut consequatur voluptas aliquam, modi voluptatem. Temporibus libero iste quisquam mollitia qui doloribus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <!-- footer --> 
     <footer class="py-3 bg-dark text-white">
-      <div class="container row">
-        <p class="text-center m-0">
-          copyright gmario 2021
-        </p>
+      <div class="container">
+        <div class="row">
+          <ul class="text-center m-0 list-group">
+            <li class="list-group-item bg-transparent text-light border-0">Yan R. Rogério - <b class="text-info">200013103</b></li>
+            <li class="list-group-item bg-transparent text-light border-0">Lídia De Mario - <b class="text-info">190008558</b></li>
+            <li class="list-group-item bg-transparent text-light border-0">Guilherme De Mario - <b class="text-info">190008557</b></li>
+            <li class="list-group-item bg-transparent text-light border-0">Leonardo Storti - <b class="text-info">190010785</b></li>
+          </ul>
+        </div>
       </div>
     </footer>
 
+    <!-- scripts --> 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
+    <script src="/src/javascript/app.js"></script>
+
   </body>
-  
+
 </html>

@@ -4,3 +4,33 @@
 .title-header {
   font-size: 2rem;
 }
+
+.theme-radio {
+  width: 4rem !important;
+  height: 2rem;
+  margin-right: 25px;
+}
+
+.form-check-label {
+  margin-top: 2px;
+  font-size: 1.5rem;
+}
+
+.dark-theme {
+
+  section:nth-child(1) {
+    background-color: #343a40;
+    color: #fff;
+  }
+
+  section:nth-child(2) {
+    background-color: #495057 !important;
+    color: #fff;
+  }
+
+  section:nth-child(3) {
+    background-color: #343a40;
+    color: #fff;
+  }
+
+}
